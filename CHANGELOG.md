@@ -1,0 +1,63 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2026-09-25
+### Added
+- **Core Architecture**: Pluggable `ToolRegistry` supporting dynamic discovery, real-time keywords search, local persistence for Favorites and History via Room Database.
+- **Modern UI**: Full Material Design 3 UI with Edge-to-Edge display, Dark/Light mode, Category tabs, Quick tools, and responsive layout.
+- **Image Engine & Tools**:
+  - Image Compressor (quality and size optimization)
+  - Image Resizer (custom width/height, preserve aspect ratio)
+  - Image Format Converter (PNG, JPEG, WebP Lossy & Lossless)
+  - Image Color Picker (inspect RGB/HEX from any tap on image)
+  - Image Grayscale & Black/White filter
+  - Image Blur tool
+  - Image Rotation
+- **Document & PDF Tools**:
+  - Multiple Images to PDF compilation
+  - Text to PDF document generator
+  - PDF to Images renderer (extract individual pages as bitmaps)
+  - PDF Inspector & Metadata viewer
+- **Audio & Video Engine**:
+  - Video to Audio extractor (extract M4A / AAC audio tracks directly from MP4 / WebM / MKV videos locally)
+  - Video Trimmer
+  - Audio Cutter & Trimmer
+  - Volume Booster & Normalizer
+  - Silence Detector
+- **Text Tools**:
+  - Word, Character, Line Counter
+  - Case Converter (Uppercase, Lowercase, Title Case, Sentence Case)
+  - Duplicate Line Remover & Line Sorter
+  - Text Cleaner & Empty Line Stripper
+  - Base64 Encoder / Decoder
+  - URL Encoder / Decoder
+- **Developer Tools**:
+  - Hash Generator (MD5, SHA-1, SHA-256, SHA-512)
+  - UUID v4 Generator (batch generation & uppercase/lowercase toggle)
+  - Unix Epoch Timestamp Converter (milliseconds/seconds <-> human date)
+  - Regex Tester & Match Evaluator
+  - JWT (JSON Web Token) Header & Payload Decoder
+  - Color Converter (HEX <-> RGB <-> HSL)
+  - JSON Formatter, Minifier & Syntax Validator
+- **Calculator & Everyday Tools**:
+  - Standard & Scientific Expression Calculator
+  - Percentage Calculator (X% of Y, % increase/decrease)
+  - Discount & Sales Tax Calculator
+  - Age & Milestone Calculator
+  - Date & Days Difference Calculator
+  - BMI (Body Mass Index) Health Calculator
+- **Universal Unit Converter**:
+  - Length (m, km, cm, mm, in, ft, yd, mi)
+  - Weight & Mass (kg, g, mg, lb, oz)
+  - Temperature (°C, °F, K)
+  - Area (m², km², ft², acres, hectares)
+  - Speed (km/h, mph, m/s, knots)
+  - Digital Storage (Bytes, KB, MB, GB, TB)
+  - Energy (Joules, Calories, kWh)
+- **File Utilities**:
+  - File Inspector (MIME type, exact size, file extension, URI info)
+  - ZIP File Archive Creator (multi-file compression)
+  - ZIP Archive Extractor with security Zip-Slip directory traversal prevention
+- **QR Code Tools**:
+  - Offline QR Code Generator with download, copy, and native Android Share intent

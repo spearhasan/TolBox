@@ -1,0 +1,7 @@
+{
+  "name": "ToolBox",
+  "description": "Universal All-in-One Utility Toolbox featuring offline-first media, document, text, developer, and calculator tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
